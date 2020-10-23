@@ -17,7 +17,6 @@ class Triangle:
     def get_perimeter(self):
         return sum([self.ab_length, self.ac_length, self.bc_length])
 
-    @property
     def get_area(self):
         # p = half_perimeter
         p = self.get_perimeter() * 0.5
